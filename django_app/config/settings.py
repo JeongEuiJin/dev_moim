@@ -37,6 +37,13 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    # debug에서만
+    'django_extensions',
+
+    # add Apps
+    'moim'  # 메인 post 될 곳
+
 ]
 
 MIDDLEWARE = [
