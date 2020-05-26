@@ -1,8 +1,23 @@
-reated by https://www.gitignore.io/api/macos,django,python,pycharm
-# Edit at https://www.gitignore.io/?templates=macos,django,python,pycharm
+### Custom ###
+.config_secret/
+*.swp
+.idea/
+.config/
+.static/
+.static_root/
+.DS_Store
+.dockerfiles/
+.media_root/
+migrations/
+Dockerfile
+migrations/
+.media/
+.sass-cache/
+.ebextensions/
+.requirements/
 
-#custom
-.idea
+# Created by https://www.gitignore.io/api/vim,linux,macos,django,python,pycharm
+# Edit at https://www.gitignore.io/?templates=vim,linux,macos,django,python,pycharm
 
 ### Django ###
 *.log
@@ -120,6 +135,21 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+### Linux ###
+*~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
 
 ### macOS ###
 # General
@@ -284,4 +314,28 @@ fabric.properties
 
 # Pyre type checker
 
-# End of https://www.gitignore.io/api/macos,django,python,pycharm
+### Vim ###
+# Swap
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# Session
+Session.vim
+Sessionx.vim
+
+# Temporary
+.netrwhist
+
+# Auto-generated tag files
+tags
+
+# Persistent undo
+[._]*.un~
+
+# Coc configuration directory
+.vim
+
+# End of https://www.gitignore.io/api/vim,linux,macos,django,python,pycharm
